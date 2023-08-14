@@ -22,7 +22,7 @@ const cardProject = ({ project }) => {
         <h3 className="text-lg font-medium pt-8 pb-2 text-teal-500">
           {project.title}
         </h3>
-        <div className="py-1 text-sm h-[40%]">{project.des}</div>
+        <div className="py-1 text-sm mb-4">{project.des}</div>
         <div className="flex items-center gap-2 justify-center text-xs mb-10">
           {project.tag.map((item, index) => (
             <p className="bg-teal-400 text-white p-1 shadow-md" key={index}>

@@ -40,9 +40,9 @@ const ProjectsBar = ({ handleProjectFilter }) => {
             <a
               className={styleOptions}
               href="#"
-              onClick={() => handleFilter("Python")}
+              onClick={() => handleFilter("IA (Python)")}
             >
-              Python
+              IA (Python)
             </a>
           </li>
           <li>
@@ -52,6 +52,42 @@ const ProjectsBar = ({ handleProjectFilter }) => {
               onClick={() => handleFilter("Node")}
             >
               Node JS
+            </a>
+          </li>
+          <li>
+            <a
+              className={styleOptions}
+              href="#"
+              onClick={() => handleFilter("JavaScript")}
+            >
+              JavaScript
+            </a>
+          </li>
+          <li>
+            <a
+              className={styleOptions}
+              href="#"
+              onClick={() => handleFilter("HTML")}
+            >
+              HTML
+            </a>
+          </li>
+          <li>
+            <a
+              className={styleOptions}
+              href="#"
+              onClick={() => handleFilter("CSS")}
+            >
+              CSS
+            </a>
+          </li>
+          <li>
+            <a
+              className={styleOptions}
+              href="#"
+              onClick={() => handleFilter("Kotlin")}
+            >
+              Kotlin
             </a>
           </li>
         </ul>

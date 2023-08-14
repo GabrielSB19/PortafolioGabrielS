@@ -15,7 +15,6 @@ const style = {
 };
 
 export default function ModalComponent({ open, handleClose, project }) {
-  console.log(open);
   return (
     <Modal
       open={open}
@@ -39,8 +38,9 @@ export default function ModalComponent({ open, handleClose, project }) {
         {project.view && (
           <p className="text-center mb-9">
             <a
-              href={project.link}
+              href={project.view}
               className="text-teal-500 border-b border-teal-500"
+              target="_blank"
             >
               Ver Projecto desplegado
             </a>
