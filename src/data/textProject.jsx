@@ -1,16 +1,13 @@
-import SortedAlgorithm from "../assets/imgPortafolio/SortedAlgorithm.png";
-import ExactSum from "../assets/imgPortafolio/ExactSum.png";
-import TorresHanoi from "../assets/imgPortafolio/TorresHanoi.png";
 import CasaDorada from "../assets/imgPortafolio/CasaDorada.png";
 import SneakLadders from "../assets/imgPortafolio/SneakLadders.png";
 import CarRenting from "../assets/imgPortafolio/CarRenting.png";
 import GameStore from "../assets/imgPortafolio/GameStore.png";
 import FibaData from "../assets/imgPortafolio/FibaData.png";
-import RCode from "../assets/imgPortafolio/RCode.png";
 import HellishMaze from "../assets/imgPortafolio/HellishMaze.png";
+
+import RCode from "../assets/imgPortafolio/RCode.png";
 import SPAJSt from "../assets/imgPortafolio/SPAJS.png";
 import VisionChest from "../assets/imgPortafolio/VisionChest.png";
-import CYKi from "../assets/imgPortafolio/CYK.png";
 import Virtualica from "../assets/imgPortafolio/Virtualica.png";
 import BankCustomer from "../assets/imgPortafolio/BankCustomer.png";
 import SocialProof from "../assets/imgPortafolio/socialproof.png";
@@ -41,44 +38,8 @@ import TimeTrackingDashboard from "../assets/imgPortafolio/TimeTrackingDashboard
 const textProject = [
   {
     id: 1,
-    title: "Sorted Algorithm",
-    des: "Aplicación de escritorio en el cual se puede visualizar el funcionamiento de los algoritmos de ordenamiento mas conocidos.",
-    img: SortedAlgorithm,
-    section: ["Java"],
-    tag: ["Java", "Algoritmos", "Basico"],
-    link: "https://github.com/GabrielSB19/sorted-algorithms",
-    view: "",
-    deepDes:
-      "Aplicación de escritorio en el cual se puede visualizar el funcionamiento de los algoritmos de ordenamiento mas conocidos, como lo son el Bubble Sort, Insertion Sort, Selection Sort, Quick Sort y Merge Sort. Esta aplicación fue desarrollada en Java utilizando el IDE NetBeans. La aplicación cuenta con una interfaz en CLI",
-  },
-  {
-    id: 2,
-    title: "Exact Sum",
-    des: "Problema de programación competitiva en el cual se evidencia el uso eficiente de If, For y Do-While",
-    img: ExactSum,
-    section: ["Java"],
-    tag: ["Java", "Basico", "P competitiva"],
-    link: "https://github.com/GabrielSB19/Exact-Sum/tree/master",
-    view: "",
-    deepDes:
-      "Problema de programación competitiva en el cual se evidencia el uso eficiente de If, For y Do-While. El objetivo del problema es encontrar dos elementos en un conjunto dado de tal manera que la suma de estos dos elementos sea igual a un valor objetivo predefinido. La tarea se complica por la necesidad de seleccionar la combinación de elementos que minimice la diferencia entre ellos, en caso de que existan varias soluciones posibles. La eficiencia es importante debido a que pueden haber muchas combinaciones posibles en el conjunto y se busca una solución óptima en términos de diferencia entre los valores.",
-  },
-  {
-    id: 3,
-    title: "Torres de Hanoi",
-    des: "Algoritmo el cual resuelve el famoso problema de las torres de Hanoi",
-    img: TorresHanoi,
-    section: ["Java"],
-    tag: ["Java", "Basico", "Algoritmos"],
-    link: "https://github.com/GabrielSB19/honei-towers",
-    view: "",
-    deepDes:
-      "Algoritmo el cual resuelve el famoso problema de las torres de Hanoi. El problema consiste en mover una torre de discos de una varilla a otra, utilizando una varilla auxiliar. El problema se resuelve de manera recursiva, en la cual se mueven los discos de la varilla inicial a la varilla auxiliar, luego se mueven los discos de la varilla inicial a la varilla final y por ultimo se mueven los discos de la varilla auxiliar a la varilla final.",
-  },
-  {
-    id: 4,
     title: "La Casa Dorada",
-    des: "Proyecto Java de escritorio desarrollado para un restaurante, en el cual se gestiona toda la información del restaurante, además de tener una sección de ventas y reportes.",
+    des: "Proyecto Java Escritorio desarrollado para un restaurante, en el cual se gestiona toda la información necesaria",
     img: CasaDorada,
     section: ["Java"],
     tag: ["Java", "Escritorio", "Medio", "Gestion"],
@@ -88,9 +49,9 @@ const textProject = [
       "Proyecto Java de escritorio desarrollado para un restaurante, en el cual se gestiona toda la información del restaurante, además de tener una sección de ventas y reportes. El proyecto fue desarrollado en Java utilizando el IDE NetBeans y la interfaz fue desarrollada en JavaFX. El proyecto cuenta con una base de datos la cual es importada a traves de archivos csv. El proyecto cuenta con una interfaz grafica en la cual se puede gestionar toda la información del restaurante, como lo son los empleados, los clientes, los productos, las categorias, las ventas y los reportes. El ReadMe cuenta con un video en el cual se muestra el funcionamiento del proyecto.",
   },
   {
-    id: 5,
+    id: 2,
     title: "Sneak and Ladders",
-    des: "Proyecto Java en el cual se desarollo el famoso juego de mesa Serpientes y Escaleras, en este juego se puede jugar contra la computadora o contra otro jugador mediante una CLI. Se utilizo 100% programación recursiva.",
+    des: "Proyecto Java Escritorio que simula el juego de Sneak and Ladders. Se utilizo 100% programación recursiva.",
     img: SneakLadders,
     section: ["Java"],
     tag: ["Java", "Recursividad", "Medio", "Juego"],
@@ -100,9 +61,9 @@ const textProject = [
       "Proyecto Java en el cual se desarollo el famoso juego de mesa Serpientes y Escaleras, en este juego se puede jugar contra la computadora o contra otro jugador mediante una CLI. Se utilizo 100% programación recursiva. El proyecto fue desarrollado en Java utilizando el IDE NetBeans. El proyecto cuenta con una interfaz en CLI en la cual se puede jugar el juego. En este proyecto no se cuenta con ningún bucle, fue desarrollado totalmente con funciones recursivas la cual se encargan de realizar las acciones del juego. En el ReadMe del proyecto se muestra como instalar el juego.",
   },
   {
-    id: 6,
+    id: 3,
     title: "Car Renting",
-    des: "Proyecto Java de escritorio en el cual se simula la administración de una plataforma de alquiler de autos. Se utilizaron diferentes patrones de diseño como lo son el patrón de diseño MVC y el patrón de diseño DAO.",
+    des: "Proyecto Java Escritorio en el cual se simula la administración de una plataforma de alquiler de autos.",
     img: CarRenting,
     section: ["Java"],
     tag: ["Java", "Escritorio", "Medio", "Pruebas Unitarias"],
@@ -112,9 +73,9 @@ const textProject = [
       "Proyecto Java de escritorio en el cual se simula la administración de una plataforma de alquiler de autos. Se utilizaron diferentes patrones de diseño como lo son el patrón de diseño MVC y el patrón de diseño DAO. En este proyecto se realizo toda el ciclo de vida del Software desde el analisi de requerimientos hasta el despliegue, se realizaron diagramas de clase y pruebas unitarias. Además de esto, tambien contamos con un video en el cual se muestra el funcionamiento del proyecto. El proyecto fue desarrollado en Java utilizando el IDE NetBeans y la interfaz fue desarrollada en JavaFX. El proyecto fue desarrollado por 2 personas.",
   },
   {
-    id: 7,
+    id: 4,
     title: "Game Store",
-    des: "Proyecto Java de escritorio en el cual se simula el funcionamiento de una tienda de videojuegos. Se utilizaron diferentes patrones de diseño como lo son el patrón de diseño MVC y el patrón de diseño DAO. Además se hizo enfasis en el uso de los stacks, queues y HashTables.",
+    des: "Proyecto Java Escritorio que simula una tienda de videojuegos. Mediante el uso de Stacks, Queues y Hashs.",
     img: GameStore,
     section: ["Java"],
     tag: ["Java", "HashTables", "Stacks", "Queues"],
@@ -124,19 +85,31 @@ const textProject = [
       "Proyecto Java de escritorio en el cual se simula el funcionamiento de una tienda de videojuegos. Se utilizaron diferentes patrones de diseño como lo son el patrón de diseño MVC y el patrón de diseño DAO. Además se hizo enfasis en el uso de los stacks y queues. El proyecto fue desarrollado en Java utilizando el IDE IntelliJ y la interfaz fue desarrollada en JavaFX. El proyecto cuenta con una base de datos la cual es importada a traves de archivos csv. El proyecto cuenta con un documento de ADT además del estudio de los algoritmos de ordenamiento más famosos",
   },
   {
-    id: 8,
+    id: 5,
     title: "Fiba Data Control",
-    des: "Proyecto Java de escritorio en el cual se simula la inscripción de jugadores de basketball al sistema. Se manejaron más de 1 millon de datos de forma eficiente con estructuras de arboles.",
+    des: "Proyecto Java Escritorio, se manejan más de 100K datos mediante el uso de estructuras como lo son los arboles.",
     img: FibaData,
     section: ["Java"],
-    tag: ["Java", "Arboles AVL", "Arboles Binarios", "+1M Datos"],
+    tag: ["Java", "Arboles AVL", "Arboles Binarios", "+100K Datos"],
     link: "https://github.com/GabrielSB19/fiba-data-control",
     view: "https://github.com/GabrielSB19/fiba-data-control/blob/master/README.md",
     deepDes:
       "Proyecto Java de escritorio en el cual se simula la inscripción de jugadores de basketball al sistema. Se manejaron más de 1 millon de datos de forma eficiente con estructuras de arboles. Para la gran cantidad de datos se usaron estructuras de datos que nos permiten manejar los datos de manera eficiente, estas estructuras son especialmente los arboles binarios de busquedad, arboles avl y arboles rojo-negro.",
   },
   {
-    id: 9,
+    id: 6,
+    title: "Hellish Maze",
+    des: "Proyecto Java Escritorio, el cual es un juego donde se evidenció el uso de Grafos de la mejor manera posible.",
+    img: HellishMaze,
+    section: ["Java"],
+    tag: ["Java", "Juego", "Grafos", "Avanzado"],
+    link: "https://github.com/GabrielSB19/hellish-maze",
+    view: "https://github.com/GabrielSB19/hellish-maze#readme",
+    deepDes:
+      "Proyecto de Java el cual es un juego donde se evidenció el uso de Grafos de la mejor manera posible. El juego consiste en encontrar el mejor camino desde un punto A hasta un punto B. En el juego se utilizan diversos caminos para llegar a la meta, estos caminos tienen trampas o comodines, el objetivo es encontrar el camino con menor peso, además existe un sistema de ranking el cual se basa en el tiempo, tambien hay diferentes dificultades.",
+  },
+  {
+    id: 7,
     title: "R-Code-Pruebas-Saber-11-Cali",
     des: "Proyecto desarrollado en el lenguaje de R, en este proyecto se analiza los resultados de los estudiantes en las pruebas de estado de Colombia",
     img: RCode,
@@ -148,21 +121,9 @@ const textProject = [
       "Proyecto desarrollado en el lenguaje de R, en este proyecto se analiza los resultados de los estudiantes en las pruebas de estado de Colombia. En este proyecto se analizó un DataSet de los estudiantes en las pruebas saber 11 en la ciudad de Cali-Colombia, se hizo un analisis exploratorio de datos, se plantearon diversas hipotesis y la comprobación de estas. Tambien se concluyeron diversas caracteristicas encontradas, estan presentes en el documento de presentación del proyecto.",
   },
   {
-    id: 10,
-    title: "Hellish Maze",
-    des: "Proyecto de Java el cual es un juego donde se evidenció el uso de Grafos de la mejor manera posible. El juego consiste en encontrar el mejor camino desde un punto A hasta un punto B",
-    img: HellishMaze,
-    section: ["Java"],
-    tag: ["Java", "Juego", "Grafos", "Avanzado"],
-    link: "https://github.com/GabrielSB19/hellish-maze",
-    view: "https://github.com/GabrielSB19/hellish-maze#readme",
-    deepDes:
-      "Proyecto de Java el cual es un juego donde se evidenció el uso de Grafos de la mejor manera posible. El juego consiste en encontrar el mejor camino desde un punto A hasta un punto B. En el juego se utilizan diversos caminos para llegar a la meta, estos caminos tienen trampas o comodines, el objetivo es encontrar el camino con menor peso, además existe un sistema de ranking el cual se basa en el tiempo, tambien hay diferentes dificultades.",
-  },
-  {
     id: 11,
     title: "SPA-JS",
-    des: "SPA JS es una página web desarrollada con JavaScript, Html y CSS, que nos permite ver una lista con diferentes tipos de artículos, también podemos registrarnos e iniciar sesión.",
+    des: "SPA JS Página web desarrollada con JavaScript, que nos permite registrarnos y listar tipos de artículos.",
     img: SPAJSt,
     section: ["JavaScript", "HTML", "CSS"],
     tag: ["JavaScript", "HTML", "CSS", "Web"],
@@ -182,18 +143,6 @@ const textProject = [
     view: "",
     deepDes:
       "Juego de ajedrez de visión hecho con react como herramienta marco. La visión del tablero es la capacidad de ver cómo se mueven e interactúan las piezas en el tablero de ajedrez. Esta habilidad es una parte crítica de la base ajedrecística de un jugador. Una de las mejores formas de desarrollar la visión del tablero es jugando muchas, muchas partidas.",
-  },
-  {
-    id: 13,
-    title: "Algoritmo CYK",
-    des: "Proyecto Java de escritorio donde dado una gramatica se puede verificar si una cadena pertenece a la gramatica o no, esto se hace mediante el algoritmo CYK",
-    img: CYKi,
-    section: ["Java"],
-    tag: ["Java", "Computación", "Algoritmo", "Gramaticas"],
-    link: "https://github.com/GabrielSB19/IT-cyk-algorithm",
-    view: "",
-    deepDes:
-      "Proyecto Java de escritorio donde dado una gramatica se puede verificar si una cadena pertenece a la gramatica o no, esto se hace mediante el algoritmo CYK. Se utilizaron diferentes estructuras de almacenamiento para comprobar si la cadena pertenece o no a la gramatica, se hizo por medio de una matriz superior triangular.",
   },
   {
     id: 14,
