@@ -1,9 +1,13 @@
+import { useState } from "react";
+
 const ProjectsBar = ({ handleProjectFilter }) => {
+  const [isSelected, setIsSelected] = useState("Todos");
   const styleOptions =
     "hover:text-cyan-500 hover:border-b border-solid border-cyan-500 text-gray-800 transition duration-500";
 
   const handleFilter = (e) => {
     handleProjectFilter(e);
+    setIsSelected(e);
   };
   return (
     <>
@@ -11,7 +15,10 @@ const ProjectsBar = ({ handleProjectFilter }) => {
         <ul className="flex flex-wrap justify-around pb-3 border-b border-gray-400">
           <li>
             <a
-              className={styleOptions}
+              className={`${styleOptions}${
+                isSelected === "Todos" &&
+                "text-teal-500 border-b border-solid border-teal-500"
+              }`}
               href="#"
               onClick={() => handleFilter("Todos")}
             >
@@ -20,7 +27,10 @@ const ProjectsBar = ({ handleProjectFilter }) => {
           </li>
           <li>
             <a
-              className={styleOptions}
+              className={`${styleOptions}${
+                isSelected === "Java" &&
+                "text-teal-500 border-b border-solid border-teal-500"
+              }`}
               href="#"
               onClick={() => handleFilter("Java")}
             >
@@ -29,7 +39,10 @@ const ProjectsBar = ({ handleProjectFilter }) => {
           </li>
           <li>
             <a
-              className={styleOptions}
+              className={`${styleOptions}${
+                isSelected === "React" &&
+                "text-teal-500 border-b border-solid border-teal-500"
+              }`}
               href="#"
               onClick={() => handleFilter("React")}
             >
@@ -38,7 +51,10 @@ const ProjectsBar = ({ handleProjectFilter }) => {
           </li>
           <li>
             <a
-              className={styleOptions}
+              className={`${styleOptions}${
+                isSelected === "IA (Python)" &&
+                "text-teal-500 border-b border-solid border-teal-500"
+              }`}
               href="#"
               onClick={() => handleFilter("IA (Python)")}
             >
@@ -47,7 +63,10 @@ const ProjectsBar = ({ handleProjectFilter }) => {
           </li>
           <li>
             <a
-              className={styleOptions}
+              className={`${styleOptions}${
+                isSelected === "Node" &&
+                "text-teal-500 border-b border-solid border-teal-500"
+              }`}
               href="#"
               onClick={() => handleFilter("Node")}
             >
@@ -56,7 +75,10 @@ const ProjectsBar = ({ handleProjectFilter }) => {
           </li>
           <li>
             <a
-              className={styleOptions}
+              className={`${styleOptions}${
+                isSelected === "JavaScript" &&
+                "text-teal-500 border-b border-teal-500"
+              }`}
               href="#"
               onClick={() => handleFilter("JavaScript")}
             >
@@ -65,7 +87,10 @@ const ProjectsBar = ({ handleProjectFilter }) => {
           </li>
           <li>
             <a
-              className={styleOptions}
+              className={`${styleOptions}${
+                isSelected === "HTML" &&
+                "text-teal-500 border-b border-solid border-teal-500"
+              }`}
               href="#"
               onClick={() => handleFilter("HTML")}
             >
@@ -74,7 +99,10 @@ const ProjectsBar = ({ handleProjectFilter }) => {
           </li>
           <li>
             <a
-              className={styleOptions}
+              className={`${styleOptions}${
+                isSelected === "CSS" &&
+                "text-teal-500 border-b border-solid border-teal-500"
+              }`}
               href="#"
               onClick={() => handleFilter("CSS")}
             >
@@ -83,7 +111,10 @@ const ProjectsBar = ({ handleProjectFilter }) => {
           </li>
           <li>
             <a
-              className={styleOptions}
+              className={`${styleOptions}${
+                isSelected === "Kotlin" &&
+                "text-teal-500 border-b border-solid border-teal-500"
+              }`}
               href="#"
               onClick={() => handleFilter("Kotlin")}
             >

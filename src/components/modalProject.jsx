@@ -25,7 +25,9 @@ export default function ModalComponent({ open, handleClose, project }) {
       <Box sx={style}>
         <img src={project.img} className="m-auto w-50 h-40 mb-6" />
         <p className="text-center text-3xl text-teal-500">{project.title}</p>
-        <p className="text-center my-2 text-sm mb-4">{project.deepDes}</p>
+        <p className="text-center my-2 text-sm mb-4 pl-10 pr-10">
+          {project.deepDes}
+        </p>
         <p className="text-center mb-4">
           <a
             href={project.link}
