@@ -15,12 +15,6 @@ const textExpF = [
 
 const textExpE = [
   {
-    year: "2019 - 2020",
-    place: "Logicentro S.A.S",
-    name: "Asistente administrativo",
-    des: "Practicante SENA en Técnico en Asistencia Administrativa, desempeñando funciones en el área de Recursos Humanos. Desde el 8 de Febrero del 2019 hasta el 8 de Noviembre del 2019",
-  },
-  {
     year: "2023 - Actualmente",
     place: "Universidad ICESI",
     name: "Full Stack Developer",
