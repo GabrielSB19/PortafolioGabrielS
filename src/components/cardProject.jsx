@@ -15,7 +15,7 @@ const cardProject = ({ project }) => {
   return (
     <>
       <div
-        className="text-center shadow-lg p-10 pb-0 rounded-xl my-10 md:w-[45%] hover:transform hover:translate-y-[-10px] transition-transform duration-300 ease-in-out cursor-pointer"
+        className="text-center shadow-lg p-10 rounded-xl my-10 md:w-[45%] hover:transform hover:translate-y-[-10px] transition-transform duration-300 ease-in-out cursor-pointer"
         onClick={handleOpenModal}
       >
         <div className="w-[80%] h-[40%] m-auto">
