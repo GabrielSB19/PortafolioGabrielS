@@ -1,6 +1,7 @@
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { FiMenu } from "react-icons/fi";
 import { useState } from "react";
+import pdf from "../assets/GabrielSuarezResume.pdf";
 
 const MenuBar = ({ handleView }) => {
   const [menu, setMenu] = useState(false);
@@ -98,7 +99,7 @@ const MenuBar = ({ handleView }) => {
       <div className="flex items-center gap-6 md:h-5 md:py-4">
         <a
           className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md hover:scale-110 hover:shadow-md"
-          href="src\assets\GabrielSuarezResume.pdf"
+          href={pdf}
           download={true}
         >
           Resume
