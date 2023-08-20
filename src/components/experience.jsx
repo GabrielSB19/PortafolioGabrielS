@@ -18,7 +18,7 @@ const experience = () => {
           y dedicación.
         </p>
       </div>
-      <div className="flex flex-wrap justify-around gap-2 md:flex-row-reverse flex-col items-center">
+      <div className="flex flex-wrap justify-around gap-2 md:flex-row flex-col-reverse">
         <div className="md:w-[45%] p-5 w-[100%]">
           <h4 className="font-medium text-xl text-center">Formacion</h4>
           {TextExp.textExpF.map((item, index) => (
